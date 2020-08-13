@@ -1,6 +1,8 @@
 fid = fopen('parameter_input.txt','w');
 b_layer = 1; 
 alph    = n; 
+b0      = 2.73e4;      % variables no longer used in main code. Need to update. 
+mu0     = 6.025e-7;
 fprintf(fid,'%s\n','parameter input');
 fprintf(fid,'%8.0f\n',wall_bc_type);
 fprintf(fid,'%16.10e\n',rho);
